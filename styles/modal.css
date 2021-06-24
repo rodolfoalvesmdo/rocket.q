@@ -1,0 +1,67 @@
+.modal-wrapper {
+  display: flex;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: var(--dark-modal);
+}
+
+.modal-wrapper .modal {
+  width: min(59rem, 90%);
+  background: var(--white);
+  margin: auto;
+  border-radius: .8rem;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  padding: 6.4rem 4.4rem;
+}
+
+.modal-wrapper .modal h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: var(--black);
+  margin-bottom: 1.2rem;
+}
+
+.modal-wrapper .modal p {
+  margin-bottom: 2.4rem;
+  color: var(--grey-dark);
+}
+
+.modal-wrapper .modal input {
+  margin-bottom: 4rem;
+  outline: none;
+  border: .2rem solid var(--grey-light);
+  width: min(60%, 30.2rem);
+  padding: 1.3rem 1.6rem;
+}
+
+.modal-wrapper .modal input:focus {
+  border: .2rem solid var(--blue);
+  transition: .5s;
+}
+
+.modal-wrapper .modal .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-wrapper .modal .buttons > .button {
+  margin-right: .8rem;
+}
+
+.modal-wrapper .modal .buttons > .button:hover {
+  background: var(--grey-dark);
+  color: var(--white);
+  transition: .5s;
+}
+
+.modal-wrapper .modal .buttons > button,
+.modal-wrapper .modal .buttons > .button {
+  padding: 1.3rem 3.2rem;
+}
+
+
